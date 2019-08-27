@@ -12,13 +12,12 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.summary          = 'Resolve scrollView nested sliding conflicts.'
   s.description      = %{
-    segument.
-    supports iOS.
+    
   }                       
-  s.homepage         = 'https://github.com/daibo789/BBCSengumentScrolView'
+  s.homepage         = 'https://github.com/daibo789/BBCSengumentScrolView/BBCSengumentScrolView/BBCSengumentScrolView'
   s.author           = { 'Arch' => 'daibo789@163.com' }
   s.source           = { :git => 'https://github.com/daibo789/BBCSengumentScrolView.git', :tag => s.version.to_s }
-  s.source_files = 'BBCSengumentScrolView/classes/*.{h,m}'
+  s.source_files = 'BBCSengumentScrolView/BBCSengumentScrolView/classes/*.{h,m}'
   s.ios.frameworks = 'Foundation', 'UIKit'
   s.ios.deployment_target = '9.0'
   s.dependency 'Masonry', '~> 1.1.0'
