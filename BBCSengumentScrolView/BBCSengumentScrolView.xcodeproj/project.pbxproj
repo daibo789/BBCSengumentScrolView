@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F58835F9FB3320DD5CDE550 /* Pods_BBCSengumentScrolViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA01376835E9BF1D484241E3 /* Pods_BBCSengumentScrolViewTests.framework */; };
+		86007BA12315043100033AD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007BA02315043100033AD0 /* AppDelegate.m */; };
+		86007BA42315043100033AD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007BA32315043100033AD0 /* ViewController.m */; };
+		86007BA72315043100033AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86007BA52315043100033AD0 /* Main.storyboard */; };
+		86007BA92315043300033AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86007BA82315043300033AD0 /* Assets.xcassets */; };
+		86007BAC2315043300033AD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86007BAA2315043300033AD0 /* LaunchScreen.storyboard */; };
+		86007BAF2315043300033AD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007BAE2315043300033AD0 /* main.m */; };
+		86007BB92315043300033AD0 /* BBCSengumentScrolViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007BB82315043300033AD0 /* BBCSengumentScrolViewTests.m */; };
+		86007BC42315043300033AD0 /* BBCSengumentScrolViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007BC32315043300033AD0 /* BBCSengumentScrolViewUITests.m */; };
+		86007BE52315092600033AD0 /* BBCChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007BE32315092600033AD0 /* BBCChildViewController.m */; };
+		86007BE823150A9D00033AD0 /* BPMenuCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86007BE723150A9D00033AD0 /* BPMenuCollectionView.swift */; };
+		86007BEE231523E800033AD0 /* ddddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007BED231523E800033AD0 /* ddddViewController.m */; };
+		86007C10231529B400033AD0 /* BBCSegmentedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007C02231529B300033AD0 /* BBCSegmentedPageViewController.m */; };
+		86007C11231529B400033AD0 /* BBCCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007C06231529B300033AD0 /* BBCCategoryView.m */; };
+		86007C12231529B400033AD0 /* BBCPopGestureCompatibleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007C07231529B300033AD0 /* BBCPopGestureCompatibleScrollView.m */; };
+		86007C13231529B400033AD0 /* BBCPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007C09231529B300033AD0 /* BBCPageViewController.m */; };
+		86007C15231529B400033AD0 /* BBCCenterBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007C0D231529B300033AD0 /* BBCCenterBaseTableView.m */; };
+		86007C18231529D200033AD0 /* BBCDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 86007C16231529D200033AD0 /* BBCDeviceHelper.m */; };
+		876CE5A549204D61D5BA33A0 /* Pods_BBCSengumentScrolView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7D41B7E9EBE64B22F06C52 /* Pods_BBCSengumentScrolView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86007BB52315043300033AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86007B942315043100033AD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86007B9B2315043100033AD0;
+			remoteInfo = BBCSengumentScrolView;
+		};
+		86007BC02315043300033AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86007B942315043100033AD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86007B9B2315043100033AD0;
+			remoteInfo = BBCSengumentScrolView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0910B0BBE9409C8662C5D7E7 /* Pods-BBCSengumentScrolView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCSengumentScrolView.release.xcconfig"; path = "Target Support Files/Pods-BBCSengumentScrolView/Pods-BBCSengumentScrolView.release.xcconfig"; sourceTree = "<group>"; };
+		4E9A7953251FB06E52BD097A /* Pods-BBCSengumentScrolViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCSengumentScrolViewTests.debug.xcconfig"; path = "Target Support Files/Pods-BBCSengumentScrolViewTests/Pods-BBCSengumentScrolViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E7D41B7E9EBE64B22F06C52 /* Pods_BBCSengumentScrolView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBCSengumentScrolView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86007B9C2315043100033AD0 /* BBCSengumentScrolView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCSengumentScrolView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86007B9F2315043100033AD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86007BA02315043100033AD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86007BA22315043100033AD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86007BA32315043100033AD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86007BA62315043100033AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86007BA82315043300033AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86007BAB2315043300033AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86007BAD2315043300033AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86007BAE2315043300033AD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86007BB42315043300033AD0 /* BBCSengumentScrolViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCSengumentScrolViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86007BB82315043300033AD0 /* BBCSengumentScrolViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCSengumentScrolViewTests.m; sourceTree = "<group>"; };
+		86007BBA2315043300033AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86007BBF2315043300033AD0 /* BBCSengumentScrolViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCSengumentScrolViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86007BC32315043300033AD0 /* BBCSengumentScrolViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCSengumentScrolViewUITests.m; sourceTree = "<group>"; };
+		86007BC52315043300033AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86007BE32315092600033AD0 /* BBCChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCChildViewController.m; sourceTree = "<group>"; };
+		86007BE42315092600033AD0 /* BBCChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCChildViewController.h; sourceTree = "<group>"; };
+		86007BE623150A9C00033AD0 /* BBCSengumentScrolView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBCSengumentScrolView-Bridging-Header.h"; sourceTree = "<group>"; };
+		86007BE723150A9D00033AD0 /* BPMenuCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPMenuCollectionView.swift; sourceTree = "<group>"; };
+		86007BEC231523E800033AD0 /* ddddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ddddViewController.h; sourceTree = "<group>"; };
+		86007BED231523E800033AD0 /* ddddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ddddViewController.m; sourceTree = "<group>"; };
+		86007C02231529B300033AD0 /* BBCSegmentedPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCSegmentedPageViewController.m; sourceTree = "<group>"; };
+		86007C03231529B300033AD0 /* BBCCenterBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCCenterBaseTableView.h; sourceTree = "<group>"; };
+		86007C05231529B300033AD0 /* BBCSegmentedPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCSegmentedPageViewController.h; sourceTree = "<group>"; };
+		86007C06231529B300033AD0 /* BBCCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCCategoryView.m; sourceTree = "<group>"; };
+		86007C07231529B300033AD0 /* BBCPopGestureCompatibleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCPopGestureCompatibleScrollView.m; sourceTree = "<group>"; };
+		86007C08231529B300033AD0 /* BBCPopGestureCompatibleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCPopGestureCompatibleScrollView.h; sourceTree = "<group>"; };
+		86007C09231529B300033AD0 /* BBCPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCPageViewController.m; sourceTree = "<group>"; };
+		86007C0A231529B300033AD0 /* BBCPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCPageViewController.h; sourceTree = "<group>"; };
+		86007C0D231529B300033AD0 /* BBCCenterBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCCenterBaseTableView.m; sourceTree = "<group>"; };
+		86007C0E231529B300033AD0 /* BBCCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCCategoryView.h; sourceTree = "<group>"; };
+		86007C0F231529B300033AD0 /* BBCSegumenCommen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCSegumenCommen.h; sourceTree = "<group>"; };
+		86007C16231529D200033AD0 /* BBCDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCDeviceHelper.m; sourceTree = "<group>"; };
+		86007C17231529D200033AD0 /* BBCDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCDeviceHelper.h; sourceTree = "<group>"; };
+		B429B69F178F1C93DCBDCBC5 /* Pods-BBCSengumentScrolView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCSengumentScrolView.debug.xcconfig"; path = "Target Support Files/Pods-BBCSengumentScrolView/Pods-BBCSengumentScrolView.debug.xcconfig"; sourceTree = "<group>"; };
+		CA01376835E9BF1D484241E3 /* Pods_BBCSengumentScrolViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBCSengumentScrolViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E232F507EDA08ABF2AF66EED /* Pods-BBCSengumentScrolViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBCSengumentScrolViewTests.release.xcconfig"; path = "Target Support Files/Pods-BBCSengumentScrolViewTests/Pods-BBCSengumentScrolViewTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86007B992315043100033AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876CE5A549204D61D5BA33A0 /* Pods_BBCSengumentScrolView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86007BB12315043300033AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F58835F9FB3320DD5CDE550 /* Pods_BBCSengumentScrolViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86007BBC2315043300033AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12FF3600B7132FE8FD8ED3BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B429B69F178F1C93DCBDCBC5 /* Pods-BBCSengumentScrolView.debug.xcconfig */,
+				0910B0BBE9409C8662C5D7E7 /* Pods-BBCSengumentScrolView.release.xcconfig */,
+				4E9A7953251FB06E52BD097A /* Pods-BBCSengumentScrolViewTests.debug.xcconfig */,
+				E232F507EDA08ABF2AF66EED /* Pods-BBCSengumentScrolViewTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86007B932315043100033AD0 = {
+			isa = PBXGroup;
+			children = (
+				86007B9E2315043100033AD0 /* BBCSengumentScrolView */,
+				86007BB72315043300033AD0 /* BBCSengumentScrolViewTests */,
+				86007BC22315043300033AD0 /* BBCSengumentScrolViewUITests */,
+				86007B9D2315043100033AD0 /* Products */,
+				12FF3600B7132FE8FD8ED3BF /* Pods */,
+				BFA08AE0210383B6F64C5AB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86007B9D2315043100033AD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86007B9C2315043100033AD0 /* BBCSengumentScrolView.app */,
+				86007BB42315043300033AD0 /* BBCSengumentScrolViewTests.xctest */,
+				86007BBF2315043300033AD0 /* BBCSengumentScrolViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86007B9E2315043100033AD0 /* BBCSengumentScrolView */ = {
+			isa = PBXGroup;
+			children = (
+				86007BD1231504F400033AD0 /* classes */,
+				86007B9F2315043100033AD0 /* AppDelegate.h */,
+				86007BA02315043100033AD0 /* AppDelegate.m */,
+				86007BA22315043100033AD0 /* ViewController.h */,
+				86007BA32315043100033AD0 /* ViewController.m */,
+				86007BEC231523E800033AD0 /* ddddViewController.h */,
+				86007BED231523E800033AD0 /* ddddViewController.m */,
+				86007BE42315092600033AD0 /* BBCChildViewController.h */,
+				86007BE32315092600033AD0 /* BBCChildViewController.m */,
+				86007BE723150A9D00033AD0 /* BPMenuCollectionView.swift */,
+				86007BA52315043100033AD0 /* Main.storyboard */,
+				86007BA82315043300033AD0 /* Assets.xcassets */,
+				86007BAA2315043300033AD0 /* LaunchScreen.storyboard */,
+				86007BAD2315043300033AD0 /* Info.plist */,
+				86007BAE2315043300033AD0 /* main.m */,
+				86007BE623150A9C00033AD0 /* BBCSengumentScrolView-Bridging-Header.h */,
+			);
+			path = BBCSengumentScrolView;
+			sourceTree = "<group>";
+		};
+		86007BB72315043300033AD0 /* BBCSengumentScrolViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				86007BB82315043300033AD0 /* BBCSengumentScrolViewTests.m */,
+				86007BBA2315043300033AD0 /* Info.plist */,
+			);
+			path = BBCSengumentScrolViewTests;
+			sourceTree = "<group>";
+		};
+		86007BC22315043300033AD0 /* BBCSengumentScrolViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86007BC32315043300033AD0 /* BBCSengumentScrolViewUITests.m */,
+				86007BC52315043300033AD0 /* Info.plist */,
+			);
+			path = BBCSengumentScrolViewUITests;
+			sourceTree = "<group>";
+		};
+		86007BD1231504F400033AD0 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				86007C16231529D200033AD0 /* BBCDeviceHelper.m */,
+				86007C17231529D200033AD0 /* BBCDeviceHelper.h */,
+				86007C0E231529B300033AD0 /* BBCCategoryView.h */,
+				86007C06231529B300033AD0 /* BBCCategoryView.m */,
+				86007C03231529B300033AD0 /* BBCCenterBaseTableView.h */,
+				86007C0D231529B300033AD0 /* BBCCenterBaseTableView.m */,
+				86007C0A231529B300033AD0 /* BBCPageViewController.h */,
+				86007C09231529B300033AD0 /* BBCPageViewController.m */,
+				86007C08231529B300033AD0 /* BBCPopGestureCompatibleScrollView.h */,
+				86007C07231529B300033AD0 /* BBCPopGestureCompatibleScrollView.m */,
+				86007C05231529B300033AD0 /* BBCSegmentedPageViewController.h */,
+				86007C02231529B300033AD0 /* BBCSegmentedPageViewController.m */,
+				86007C0F231529B300033AD0 /* BBCSegumenCommen.h */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		BFA08AE0210383B6F64C5AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D41B7E9EBE64B22F06C52 /* Pods_BBCSengumentScrolView.framework */,
+				CA01376835E9BF1D484241E3 /* Pods_BBCSengumentScrolViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86007B9B2315043100033AD0 /* BBCSengumentScrolView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86007BC82315043300033AD0 /* Build configuration list for PBXNativeTarget "BBCSengumentScrolView" */;
+			buildPhases = (
+				5143523ED7FE973A6226590F /* [CP] Check Pods Manifest.lock */,
+				86007B982315043100033AD0 /* Sources */,
+				86007B992315043100033AD0 /* Frameworks */,
+				86007B9A2315043100033AD0 /* Resources */,
+				2FEE44A8110BCCD4C5E74DB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBCSengumentScrolView;
+			productName = BBCSengumentScrolView;
+			productReference = 86007B9C2315043100033AD0 /* BBCSengumentScrolView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86007BB32315043300033AD0 /* BBCSengumentScrolViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86007BCB2315043300033AD0 /* Build configuration list for PBXNativeTarget "BBCSengumentScrolViewTests" */;
+			buildPhases = (
+				77E19E1B6B492ED1B5B61DEE /* [CP] Check Pods Manifest.lock */,
+				86007BB02315043300033AD0 /* Sources */,
+				86007BB12315043300033AD0 /* Frameworks */,
+				86007BB22315043300033AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86007BB62315043300033AD0 /* PBXTargetDependency */,
+			);
+			name = BBCSengumentScrolViewTests;
+			productName = BBCSengumentScrolViewTests;
+			productReference = 86007BB42315043300033AD0 /* BBCSengumentScrolViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86007BBE2315043300033AD0 /* BBCSengumentScrolViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86007BCE2315043300033AD0 /* Build configuration list for PBXNativeTarget "BBCSengumentScrolViewUITests" */;
+			buildPhases = (
+				86007BBB2315043300033AD0 /* Sources */,
+				86007BBC2315043300033AD0 /* Frameworks */,
+				86007BBD2315043300033AD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86007BC12315043300033AD0 /* PBXTargetDependency */,
+			);
+			name = BBCSengumentScrolViewUITests;
+			productName = BBCSengumentScrolViewUITests;
+			productReference = 86007BBF2315043300033AD0 /* BBCSengumentScrolViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86007B942315043100033AD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = dbb;
+				TargetAttributes = {
+					86007B9B2315043100033AD0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					86007BB32315043300033AD0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 86007B9B2315043100033AD0;
+					};
+					86007BBE2315043300033AD0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 86007B9B2315043100033AD0;
+					};
+				};
+			};
+			buildConfigurationList = 86007B972315043100033AD0 /* Build configuration list for PBXProject "BBCSengumentScrolView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86007B932315043100033AD0;
+			productRefGroup = 86007B9D2315043100033AD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86007B9B2315043100033AD0 /* BBCSengumentScrolView */,
+				86007BB32315043300033AD0 /* BBCSengumentScrolViewTests */,
+				86007BBE2315043300033AD0 /* BBCSengumentScrolViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86007B9A2315043100033AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86007BAC2315043300033AD0 /* LaunchScreen.storyboard in Resources */,
+				86007BA92315043300033AD0 /* Assets.xcassets in Resources */,
+				86007BA72315043100033AD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86007BB22315043300033AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86007BBD2315043300033AD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FEE44A8110BCCD4C5E74DB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BBCSengumentScrolView/Pods-BBCSengumentScrolView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BBCSengumentScrolView/Pods-BBCSengumentScrolView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5143523ED7FE973A6226590F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBCSengumentScrolView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E19E1B6B492ED1B5B61DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBCSengumentScrolViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86007B982315043100033AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86007C13231529B400033AD0 /* BBCPageViewController.m in Sources */,
+				86007C15231529B400033AD0 /* BBCCenterBaseTableView.m in Sources */,
+				86007BA42315043100033AD0 /* ViewController.m in Sources */,
+				86007BE52315092600033AD0 /* BBCChildViewController.m in Sources */,
+				86007C11231529B400033AD0 /* BBCCategoryView.m in Sources */,
+				86007BE823150A9D00033AD0 /* BPMenuCollectionView.swift in Sources */,
+				86007C10231529B400033AD0 /* BBCSegmentedPageViewController.m in Sources */,
+				86007C18231529D200033AD0 /* BBCDeviceHelper.m in Sources */,
+				86007BAF2315043300033AD0 /* main.m in Sources */,
+				86007C12231529B400033AD0 /* BBCPopGestureCompatibleScrollView.m in Sources */,
+				86007BEE231523E800033AD0 /* ddddViewController.m in Sources */,
+				86007BA12315043100033AD0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86007BB02315043300033AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86007BB92315043300033AD0 /* BBCSengumentScrolViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86007BBB2315043300033AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86007BC42315043300033AD0 /* BBCSengumentScrolViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86007BB62315043300033AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86007B9B2315043100033AD0 /* BBCSengumentScrolView */;
+			targetProxy = 86007BB52315043300033AD0 /* PBXContainerItemProxy */;
+		};
+		86007BC12315043300033AD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86007B9B2315043100033AD0 /* BBCSengumentScrolView */;
+			targetProxy = 86007BC02315043300033AD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86007BA52315043100033AD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86007BA62315043100033AD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86007BAA2315043300033AD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86007BAB2315043300033AD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86007BC62315043300033AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86007BC72315043300033AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86007BC92315043300033AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B429B69F178F1C93DCBDCBC5 /* Pods-BBCSengumentScrolView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBCSengumentScrolView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibo.bbc.BBCSengumentScrolView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BBCSengumentScrolView/BBCSengumentScrolView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86007BCA2315043300033AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0910B0BBE9409C8662C5D7E7 /* Pods-BBCSengumentScrolView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBCSengumentScrolView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibo.bbc.BBCSengumentScrolView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BBCSengumentScrolView/BBCSengumentScrolView-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86007BCC2315043300033AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9A7953251FB06E52BD097A /* Pods-BBCSengumentScrolViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBCSengumentScrolViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibo.bbc.BBCSengumentScrolViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBCSengumentScrolView.app/BBCSengumentScrolView";
+			};
+			name = Debug;
+		};
+		86007BCD2315043300033AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E232F507EDA08ABF2AF66EED /* Pods-BBCSengumentScrolViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBCSengumentScrolViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibo.bbc.BBCSengumentScrolViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBCSengumentScrolView.app/BBCSengumentScrolView";
+			};
+			name = Release;
+		};
+		86007BCF2315043300033AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBCSengumentScrolViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibo.bbc.BBCSengumentScrolViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BBCSengumentScrolView;
+			};
+			name = Debug;
+		};
+		86007BD02315043300033AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BBCSengumentScrolViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daibo.bbc.BBCSengumentScrolViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BBCSengumentScrolView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86007B972315043100033AD0 /* Build configuration list for PBXProject "BBCSengumentScrolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86007BC62315043300033AD0 /* Debug */,
+				86007BC72315043300033AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86007BC82315043300033AD0 /* Build configuration list for PBXNativeTarget "BBCSengumentScrolView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86007BC92315043300033AD0 /* Debug */,
+				86007BCA2315043300033AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86007BCB2315043300033AD0 /* Build configuration list for PBXNativeTarget "BBCSengumentScrolViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86007BCC2315043300033AD0 /* Debug */,
+				86007BCD2315043300033AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86007BCE2315043300033AD0 /* Build configuration list for PBXNativeTarget "BBCSengumentScrolViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86007BCF2315043300033AD0 /* Debug */,
+				86007BD02315043300033AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86007B942315043100033AD0 /* Project object */;
+}
